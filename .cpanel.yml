@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/lnjaxvpkxl/public_html/
     - /bin/cp -R public_html/* $DEPLOYPATH 
+    - /bin/cp -R /home/lnjaxvpkxl/augustin.ai/* $DEPLOYPATH 
