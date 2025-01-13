@@ -1,6 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/lnjaxvpkxl/public_html
-    - git fetch --prune
-    - git reset --hard origin/main
     - /bin/cp -R public_html/* $DEPLOYPATH
